@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#f2f2f2;
+    ---secondary-color:#000000;
+    --tertiary-color:#2962ff;
+    --quaternary-color:#7a6b86;
+    --quinary-color:#131722;
+}
+body{
+    font-family: sans-serif;
+    background-color: var(---secondary-color);
+    color: var(--primary-color);
+}
+.title{
+    font-size: 52px;
+    text-align: center;
+    margin: 4rem 0;
+
+}
+.container{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.annual-plan, .monthly-plan{
+    display: grid;
+    grid-template-columns: 1fr 8fr 3fr;
+    gap: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+}
+.checkout-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    min-width: 400px;
+    margin-top: 2rem;
+    background-color: var(--quaternary-color);
+    padding: 1.5rem;
+    border-radius: 15px;
+    .plan-type,
+    .billing,
+    .checkout-btn{
+        width: 100%;
+        padding-bottom: 1rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        &:nth-child(1){
+            border-radius: 1px solid var(--quaternary-color);
+
+        }
+        &:nth-child(3) {
+            background-color: var(--tertiary-color);
+            border: none;
+            outline: none;
+            color: var(--primary-color);
+            cursor: pointer;
+            border-radius: 15px;
+            padding: 1rem 35%;
+            font-size: 1.2rem;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: var(--quaternary-color);
+            }
+        }
+    }
+
+}

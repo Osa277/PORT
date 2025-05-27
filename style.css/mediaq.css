@@ -1,0 +1,58 @@
+ @media screen and (max-width: 350px){
+    
+
+   
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    p{
+        width: 95%;
+        text-align: justify;
+        font-size: 30px;
+    } 
+}
+
+
+   
+
+         @media tab and (min-width:700px){
+        /* body{
+            color: blue;
+        } */
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        
+        p{
+            width: 40%;
+            text-align: justify;
+        } 
+    }
+
+
+
+
+
+  @media phone and (min-width:401px){
+
+    /* body{
+        color: rgb(211, 129, 129);
+    }
+     */
+   
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    p{
+        width: 50%;
+        text-align: justify;
+    } 
+  }

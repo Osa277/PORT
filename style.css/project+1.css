@@ -1,0 +1,400 @@
+body{
+    background-color: #f2f2f2;
+    margin:3px;
+    padding: 7px; 
+    border: 12px solid;
+    width: 95%;
+}
+/* 
+.Parent-container{
+    margin-top: 32px;
+    display: flex;
+    width: 1px;
+    align-items: center;
+}  */
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+
+
+.discount-circle {
+    width: 50px;
+    height: 50px; 
+    background-color: #ff6347; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+} 
+
+ .discount-text {
+    font-size: 10px; 
+}
+
+.gross{
+padding-right: 2%; 
+ font-family: cursive;
+ padding-left: 2%;
+}
+
+
+.discount{
+    padding: 12px;
+} 
+.cart{
+    box-shadow: 2px 2px lightblue;
+    width:  190px;  
+    /* border: 2px solid; */
+    border-radius: 23px;
+    text-align: center;
+
+
+}
+
+
+
+.out{
+    box-shadow: 2px 2px lightblue;
+    width: 190px;
+    /* border: 2px solid; */
+    flex-wrap: wrap;
+    border-radius: 23px;
+    text-align: center;
+
+
+}
+.pa{
+    /* text-align: center; */
+    margin-left: 74px;
+    
+}
+.you{
+    margin-bottom: 43px;
+}
+
+.pant:hover{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5rem 0;
+    color: #6617c0;
+    /* border: 3px solid; */
+}
+
+.cart:hover{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5rem 0;
+    color: #6617c0;
+     /* border: 3px solid; */
+}
+
+.out:hover{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5rem 0;
+    color: #6617c0;
+    /* border: 3px solid; */
+}
+
+
+  
+
+.add{
+    padding-top: 48px;
+    font-family: cursive;
+    padding-bottom: 44px;
+    border-radius: 23px;
+    /* border: 12px solid; */
+    flex-wrap: wrap;
+}
+
+
+.MenuWrap {
+    background-color: indigo;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    height: 49px;
+   }
+   .ListItem,
+   .LastItem {
+    color: #ebebeb;
+    text-decoration: none;
+   }
+   .ListItem {
+    margin-right: 1rem;
+   }
+   .LastItem {
+    margin-left: auto;
+   }
+
+   .subscribe {
+    margin: 0 auto; 
+    max-width: 400px; 
+}
+
+.email-input {
+    padding: 10px; 
+    width: 70%; 
+    margin-right: 10px; 
+    border: none; 
+    border-radius: 5px;
+}
+
+.subscribe-button {
+    padding: 10px 20px; 
+    background-color: #ff6347;
+    color: white; 
+    border-radius: 5px; 
+    margin-top: 15px;
+}
+
+.subscribe-button:hover {
+    background-color: #ff4500; 
+}
+.add{
+    padding-top: 48px;
+    font-family: cursive;
+    padding-bottom: 44px;
+    border-radius: 23px;
+    /* border: 12px solid; */
+    flex-wrap: wrap;
+}
+
+
+.guniversity{
+    padding-top: 32px;
+    padding-right: 159px;
+    text-align: center;
+
+}
+
+.description{
+    text-align: start;
+    justify-content: space-evenly;
+    padding-right: 21%;
+
+
+}
+.ava{
+    font-family: cursive;
+    /* border: 1px solid; */
+    padding-right: 23px;
+    flex-wrap: wrap;
+    border: 1 solid;
+}
+
+
+.features{
+    text-align: start;
+    justify-content: space-evenly;
+    margin: 1px;
+
+}
+
+    
+   
+.Sam{
+    text-align: center;
+    display: flex;
+    margin: 5px;
+    width: 96%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.services{
+    width: 74px;
+    margin: 10px;
+}
+
+
+
+.footer {
+    margin-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333; 
+    color: white; 
+    text-align: center; 
+    padding: 1px 0; 
+    position: relative; 
+    bottom: 0;
+    width: 100%; 
+
+}
+
+.footer-links {
+    margin-right: 13px;
+    /* margin-left: 1px; */
+    margin-top: 70px;
+  padding: 2px;  
+  text-align: center;  
+  font-size: 30px;  
+    /* justify-content:space-between ; */
+}
+
+.fa-facebook {  
+    background: #333333;  
+    color: white; 
+    margin: 6px; 
+ 
+  }  
+
+  .fa-twitter {  
+    background: #333333;  
+    color: white; 
+    margin: 6px; 
+ 
+  }  
+
+  .fa-pinterest{  
+    background: #333333;  
+    color: white; 
+    margin: 6px; 
+ 
+  }  
+
+  .fa-linkedin{  
+    background: #333333;  
+    color: white;
+    margin: 6px; 
+  
+  }  
+
+
+  .fa-instagram{  
+    background: #333333;  
+    color: white; 
+    margin: 6px; 
+  }  
+
+.footer-item {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 15px; 
+}
+
+.footer-item:hover {
+    text-decoration: underline;
+}
+
+.ross{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 19px;
+    margin-top: 22px;
+    width: 69px;
+    font-family: cursive;
+    font-size: x-large;
+}
+.social{
+    margin-left: 31px;
+}
+
+.cate1{
+    margin-left: 2%;
+    margin-right: 1%;
+    width: 100px;
+    align-items: center;
+}
+
+.customer1{
+    margin-left: 4%;
+    margin-right: 3%;
+    width: 1px;
+    align-items: center;
+    width:232px ;
+    /* display: flex; */
+}
+
+.cust1{
+    margin-top: 12px;
+    font-family: cursive;
+    font-size: large; 
+    /* display: flex; */
+}
+
+.customer{
+    margin-left: 61px;
+    /* margin-right: px; */
+    width: 101px;
+    align-items: center;
+    width:210px ;
+}
+
+.cust{
+    margin-top: 12px;
+    font-family: cursive;
+    font-size: large; 
+}
+
+ .cate{
+    margin-top: 12px;
+    font-family: cursive;
+    font-size: large;
+ }
+
+ .ex{
+    margin-bottom: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 22px;
+    width: 195px;
+}
+
+.copy{
+    text-align: center;
+    margin-left: 297px;
+    padding-top: 30px;
+}
+
+.copy1{
+    text-align: center;
+    display: flex;
+    margin-left: 323px;
+   
+}
+
+.de{
+    width: 300px;
+}
+
