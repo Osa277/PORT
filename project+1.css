@@ -398,3 +398,135 @@ padding-right: 2%;
     width: 300px;
 }
 
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+    padding: 5px;
+    border-width: 6px;
+  }
+  .Sam {
+    width: 98%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sam, .out, .cart {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  .footer {
+    flex-direction: column;
+    font-size: 15px;
+    padding: 10px 0;
+    width: 100%;
+  }
+  .copy, .copy1 {
+    margin-left: 0;
+    text-align: center;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    width: 100%;
+    padding: 2px;
+    border-width: 2px;
+  }
+  .Sam {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sam, .out, .cart {
+    width: 98%;
+    margin-bottom: 15px;
+  }
+  .footer, .footer-links {
+    flex-direction: column;
+    font-size: 13px;
+    padding: 8px 0;
+    width: 100%;
+  }
+  .ross, .social, .cate1, .customer, .customer1, .footer-links {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .copy, .copy1 {
+    margin-left: 0;
+    text-align: center;
+    padding-top: 5px;
+  }
+  .ex {
+    width: 100%;
+    margin-left: 0;
+  }
+  .description, .features {
+    padding-right: 0;
+    text-align: left;
+  }
+  .MenuWrap {
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+    padding: 1px;
+    border-width: 1px;
+  }
+  .Sam {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sam, .out, .cart {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer, .footer-links {
+    flex-direction: column;
+    font-size: 11px;
+    padding: 5px 0;
+    width: 100%;
+  }
+  .ross, .social, .cate1, .customer, .customer1, .footer-links {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .copy, .copy1 {
+    margin-left: 0;
+    text-align: center;
+    padding-top: 3px;
+  }
+  .ex {
+    width: 100%;
+    margin-left: 0;
+  }
+  .MenuWrap {
+    font-size: 1rem;
+    padding: 0 0.2rem;
+    height: auto;
+  }
+  .email-input,
+  .subscribe-button {
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+}
+
+/* Make all images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
